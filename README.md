@@ -12,6 +12,7 @@ Learn Rust with examples.
 | hello_rust     | [Rust基础-01](https://captainlee1024.gitee.io/blog/2021/01/04/Rust%E5%9F%BA%E7%A1%80-01/) |
 | hello_cargo    | [Rust基础-01](https://captainlee1024.gitee.io/blog/2021/01/04/Rust%E5%9F%BA%E7%A1%80-01/) |
 | guessing_gname | [Rust基础-02](https://captainlee1024.gitee.io/blog/2021/01/05/Rust%E5%9F%BA%E7%A1%80-02/) |
+| ...            | ...                                                                                       |
 
 ## 我的站点
 
