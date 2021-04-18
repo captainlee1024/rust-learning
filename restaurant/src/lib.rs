@@ -1,15 +1,9 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}
 mod back_of_house;
 mod front_of_house;
 // use + Absolute path
 // use crate::front_of_house::hosting;
 // Re-exporting Names with pub use
+// pub use crate::back_of_house::Breakfast;
 pub use crate::front_of_house::hosting;
 
 // use + Relative path
@@ -24,8 +18,6 @@ pub fn eat_at_restaurant() {
     hosting::add_to_waitlist();
 }
 
-fn serve_order() {}
-
 pub fn eat_at_restaurant2() {
     // Order a breakfast in the summer with Rye toast
     let mut meal = back_of_house::Breakfast::summer("Rye");
@@ -39,3 +31,5 @@ pub fn eat_at_restaurant3() {
     let order2 = back_of_house::Appetizer::Salad;
     println!("{:#?}, {:#?}", order1, order2);
 }
+
+pub fn serve_order() {}
