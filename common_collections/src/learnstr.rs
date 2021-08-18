@@ -73,4 +73,7 @@ fn learn_str() {
     for c in "नमस्ते".chars() {
         println!("{}", c);
     }
+    for c in "नमस्ते".bytes() {
+        println!("{}", c);
+    }
 }
